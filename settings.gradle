@@ -1,0 +1,2 @@
+include ':app', ':database', ':manifest'
+rootProject.name='ECHO'

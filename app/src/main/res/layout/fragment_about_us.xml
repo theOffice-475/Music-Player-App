@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.AboutUs">
+
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutUs"
+        android:layout_margin="3dp"
+        android:layout_centerInParent="true"
+        android:text="This app is created by Joey Tribbani as" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" part of Internshala's Online Android"
+        android:layout_centerInParent="true"
+        android:layout_margin="3dp"
+        android:id="@+id/tex2"
+        android:layout_below="@+id/tex"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Training Project."
+        android:layout_centerInParent="true"
+        android:layout_margin="3dp"
+        android:id="@+id/tex3"
+        android:layout_below="@+id/tex2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Android Version:1.0"
+        android:layout_centerInParent="true"
+        android:layout_margin="3dp"
+        android:layout_below="@+id/tex3"/>
+
+    <ImageView
+        android:id="@+id/aboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="308dp"
+        android:src="@drawable/joey"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
